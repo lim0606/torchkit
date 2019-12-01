@@ -11,11 +11,11 @@ import torch.nn as nn
 from torch.nn import Module
 from torch.nn.parameter import Parameter
 from torch.nn import functional as F
-import nn as nn_
-from nn import log 
+import torchkit.nn as nn_
+from torchkit.nn import log
 from torch.autograd import Variable
-import iaf_modules 
-import utils
+from torchkit import iaf_modules
+from torchkit import utils
 import numpy as np
 
 

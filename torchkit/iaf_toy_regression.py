@@ -9,16 +9,16 @@ Created on Fri Feb 23 23:59:31 2018
 
 import torch
 import matplotlib.pyplot as plt
-from optim import Adam
+from torchkit.optim import Adam
 import numpy as np
 
 import torch.nn as nn
 from torch.autograd import Variable
-from utils import log_normal, varify
+from torchkit.utils import log_normal, varify
 
-import bnn
-import nn as nn_
-import flows
+from torchkit import bnn
+from torchkit import nn as nn_
+from torchkit import flows
 
 
 if __name__ == '__main__':
